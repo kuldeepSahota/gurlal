@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a.navbar-brand.main__logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+span {
+    color: #d7794a;
+}
+
+nav.navbar.navbar-expand-sm {
+    background-color: #898d8e;
+}
+img.img__tec {
+    object-fit: cover;
+    max-width: 171%;
+    width: 100%;
+}
+.rounded-circle {
+    object-fit: cover;
+    border-radius: 50%!important;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: white;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.banner{
+    background-image: url("../css/photos/fakurian-design-lW1UCeHMPS8-unsplash.jpg");
+    height: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+   }
+   .bannertext{
+       color:white;
+   }
+   .banner .bannertext .bannerpera
+   {
+      color:#d7794a; 
+      
+   }
+   .bannertext {
+    position: absolute;
+    bottom: 47px;
+    right: 10%;
+    font-size: 18px;
+   }
+   .team__heading{
+       color:#d7794a;
+       margin-bottom: 19px;
+       margin-top: 7%;
+   }
+   .team{
+       text-align: center;
+       /* margin: 50px; */
+   }
+   .teamtext{
+       margin-bottom:64px;
+   }
+   /* .Technology__Heading{
+       margin-top:33px;
+       margin-bottom: 9%;  
+   } */
+   .jumbotron {
+    background-color: #1f3138;
+    width: 100%;
+    margin-left: 0;
+}
+   .Main__Numbers .number{
+       color:#88553b;
+       margin-left: 32%;
+   }
+   .Team{
+       color:white;
+       margin-left: 32%;
+   }
+   .Main__Numbers{
+       margin-top: 7%;
+   }
+   .Technology__img img{
+       width: 100%;
+   }
+   .contactus{
+       text-align: center;
+       margin-top: 7%;
+       margin-bottom: 7%;
+   }
+   input{
+       border:none;
+        }
+    .aboutus{
+        background-image: url("../css/photos/bg.jpg");
+        height: 100%;
+    background-size: cover;
+    height: 750px;
+    background-position: center; 
+    background-repeat: no-repeat;
+   }
+   img.aboutus__img {
+    height: 90%;
+    margin-top: 17%;
+    width: 100%;
+}
+.aboutus__left{
+    background-color: white;
+}
+p.about__head {
+    margin-top: 8px;
+    border: 1px solid black;
+    /* width: 75%;
+    margin-left: 25px; */
+}
+.aboutus__left {
+    padding: 8px;
+    text-align: center;
+    margin-top: 6px;
+}
+.abutusmaindiv{
+    margin-top:24%;
+}
+.Our__Gallary{
+    text-align: center;
+}
+footer{
+    margin-top:10%;
+    background-color: #1b2c33;
+    padding:57px;
+}
+h4,a{
+    color: white;
+}
+.footer__number{
+    color: white;  
+}
+   .Our__Gallary{
+       margin-top:7%;
+       margin-bottom: 7%;
+   } 
+   input {
+    border: none;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.form__section{
+    width: 600px;
+    margin:0 auto;
+}
+
+div#navbarSupportedContent {
+    font-size: 15px;
+}
+p.footer__number.text-center.nbr {
+    font-size: 23px;
+    
+    font-weight: bold;
+}
+p.footer__Icon {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.fa{
+    padding:0 7px;
+}
+
+
+.col-md-2.col-sm-6.mt-3.ft {
+    font-size: 13px;
+    line-height: 27px;
+}
+.btf.ftr {
+    margin-left: 26px;
+}
+.fa:hover{
+    color:red;
+}
+p.teamtext {
+    max-width: 49%;
+    margin: 0 auto;
+    text-align: justify;
+}
+p.teamtext.htts {
+    margin-bottom: 56px;
+}
+h2.form__heading {
+    color: #d7794a;
+    margin-bottom:19px;
+}
+footer .row > div {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (max-width:768px) { 
+    .img__tec {
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .Technology__Heading {
+        margin-top: 0;
+        margin-bottom: 0px; 
+    }
+    .header__text__Main{
+        text-align: center;
+    }
+   
+    img.rounded-circle {
+        min-width: 65px;
+        max-width: 89px;
+        object-fit: cover;
+    }
+    p.about__head {
+        font-size: 11px;
+    }
+    .aboutus {
+        height: 528px;
+ }
+ h4 {
+    font-size: 17px;
+}
+
+footer .row > div {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer__number {
+    border-bottom: none;
+    width: 196%;
+    color: white;
+    font-size: 9px;
+    margin-top: 17px;
+}
+.btf.ftr {
+    margin-left: 0px;
+}
+.col-md-2.col-sm-6.mt-3.ft {
+    margin-bottom: 38px;
+}
+.footer__number {
+     width: 40%;
+}
+p.footer__Icon {
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+}
+p.footer__number.text-center.nbr {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+
+    .team__heading {
+        color: #d7794a;
+        margin-bottom: 19px;
+         margin-top: 0%; 
+    }
+    .Technology__Heading {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .Main__Numbers {
+        margin-top: 0%;
+    }
+    .Our__Gallary {
+         margin-top: 0%; 
+         margin-bottom: 0%; 
+    }
+    .aboutus {
+        height: auto;
+    }
+    p.about__head {
+        margin: 13px auto;
+        width: 23%;
+       
+    }
+    h2 {
+        padding: 57px 0px 10px 42px;
+        
+    }
+    p.form__text {
+        line-height: 2;
+        font-size: 16px;
+    }
+    .team {
+        text-align: center;
+        margin: 50px 0;
+    }
+    .bannertext {
+        position: absolute;
+        bottom: 66px;
+        right: 18%;
+        font-size: 18px;
+    }
+    .banner {
+        height: 231px;
+}
+h2.header__text__Main {
+    padding-top: 23px;
+}
+h2.team__heading {
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 23px;
+}
+.col-md-3.col-sm-6.happy {
+    padding: 0 0px;
+}
+.row.jumbotron {
+    padding: 34px 0;
+text-align: center;
+}
+h2 {
+    padding: 12px 0px 10px 42px;
+}
+
+    p.about__head {
+        margin: 13px auto;
+        width: 29%;
+    
+}
+.Team {
+    margin-left:0%;
+}
+.Main__Numbers .number {
+    
+    margin-left: 0%;
+}
+}
+p.teamtext {
+     max-width: 100%;
+}
+p.gmail {
+    font-size: 12px;
+}
+p.Technology__Heading {
+    text-align: justify;
+}
+h2 {
+    padding: 0;
+}
+footer .row > div {
+     flex: 0 0 100%;
+     max-width: 100%; 
+}
+p.footer__number.text-center.nbr {
+    font-size: 13px;
+    margin: 0 0;
+    font-weight: bold;
+}
+.footer__number {
+    width: 13%;
+}
+h2.form__heading {
+    margin-top: 19px;
+}
+}
